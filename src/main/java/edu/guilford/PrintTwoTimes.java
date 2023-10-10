@@ -1,7 +1,7 @@
 package edu.guilford;
 // Why won't it let me run this? 
 
-public class PrintTwice {
+public class PrintTwoTimes {
     public static void printTwice(String s) {
         System.out.println(s);
         System.out.println(s);

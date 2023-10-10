@@ -19,6 +19,7 @@ public class RandomProgramThatJustTakesALotOfYourTime {
 
         System.out.println("The 'random' value is: " + (int) randomInt);
 
-        System.out.println("And it only took " + counter + " tries!");
+        String formattedNumber = String.format("%,d", counter);
+        System.out.println("And it only took " + formattedNumber + " tries!");
     }
 }
